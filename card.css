@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #667eea;
+}
+
+.title {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0 15px;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background: #ccc;
+    color: #667eea;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.5s;
+    border: 3px solid #667eea;
+}
+
+.socials a:hover {
+    background: #667eea;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    color: #ccc;
+}
