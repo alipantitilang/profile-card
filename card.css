@@ -31,7 +31,7 @@ body {
     margin: 5px 0 15px;
 }
 
-.socials a {
+.social a {
     display: inline-block;
     margin: 5px;
     padding: 8px 12px;
@@ -44,7 +44,7 @@ body {
     border: 3px solid #667eea;
 }
 
-.socials a:hover {
+.social a:hover {
     background: #667eea;
     border: 3px solid #ccc;
     border-radius: 10px;
