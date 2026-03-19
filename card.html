@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card</title>
+    <title>Alif Profile</title>
+
     <link rel="stylesheet" href="card.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<div class="container">
     <div class="card">
-        <img src="img/ppalif.jpg" alt="Profile Photo" class="profile-img">
-        <h2>Alip Anti Tilang</h2>
-        <p class="title"><b>Web Developer | Writer | Designer</b></p>
-        <p><b>"Learn to Create, Create to Inspire."</b></p>
-        <div class="social">
-            <a href="https://github.com/alipantitilang"><b>GitHub</b></a>
-            <a href="https://www.linkedin.com/in/alif-falihin-3b8097369/"><b>LinkedIn</b></a>
+
+        <div class="img-box">
+            <img src="img/ppalif.jpg" alt="Profile">
         </div>
+
+        <h2>Alif</h2>
+
+        <p class="typing" id="typing"></p>
+
+        <p class="quote">"Create. Break limits. Inspire."</p>
+
+        <div class="social">
+            <a href="https://github.com/alipantitilang" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/alif-falihin-3b8097369/" target="_blank">LinkedIn</a>
+        </div>
+
+        <button class="btn" onclick="alert('Let’s build something legendary 🚀')">
+            Contact Me
+        </button>
+
     </div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
